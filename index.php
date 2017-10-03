@@ -130,8 +130,8 @@
           <?php foreach($portfolioBox as $box) {
              echo "
               <div class=\"col-lg-4 col-sm-6\">
-                <a class=\"portfolio-box\" href=\"$box[img]\">
-                  <img class=\"img-fluid\" src=\"$box[img]\" alt=\"\">
+                <a class=\"portfolio-box\" href=\"$box[pic]\">
+                  <img class=\"img-fluid\" src=\"$box[pic]\" alt=\"\">
                   <div class=\"portfolio-box-caption\">
                     <div class=\"portfolio-box-caption-content\">
                       <div class=\"project-category text-faded\">
