@@ -46,7 +46,7 @@
             <?php 
               foreach($navItems as $item) {
                 echo "<li class=\"nav-item\">
-                        <a class=\"nav-link js-scroll-trigger\" href=\"#about\">$item[title]</a>";
+                        <a class=\"nav-link js-scroll-trigger\" href=\"$item[href]\">$item[title]</a>";
               };
             ?> 
 
@@ -126,7 +126,28 @@
     <section class="p-0" id="portfolio">
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
-          <div class="col-lg-4 col-sm-6">
+
+          <?php foreach($portfolioBox as $box) {
+             echo "
+              <div class=\"col-lg-4 col-sm-6\">
+                <a class=\"portfolio-box\" href=\"$box[img]\">
+                  <img class=\"img-fluid\" src=\"$box[img]\" alt=\"\">
+                  <div class=\"portfolio-box-caption\">
+                    <div class=\"portfolio-box-caption-content\">
+                      <div class=\"project-category text-faded\">
+                        $box[name]
+                      </div>
+                      <div class=\"project-name\">
+                        $box[blurb]
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>";
+          };
+
+          ?>
+          <!-- <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
               <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
               <div class="portfolio-box-caption">
@@ -215,7 +236,7 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
