@@ -61,7 +61,7 @@
         <div class="header-content-inner">
           <h1 id="homeHeading">Un-Real Chinese Food!</h1>
           <hr>
-          <p id="headingtagline">Enjoy fresh and authentic cuisine.</p>
+          <p>Enjoy fresh and authentic cuisine.</p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
       </div>
