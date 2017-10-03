@@ -26,7 +26,8 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+
 
   </head>
 
@@ -41,7 +42,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-
+              <!-- navbar buttons can be found in array.php -->
             <?php 
               foreach($navItems as $item) {
                 echo "<li class=\"nav-item\">
@@ -60,7 +61,7 @@
         <div class="header-content-inner">
           <h1 id="homeHeading">Un-Real Chinese Food!</h1>
           <hr>
-          <p>Enjoy fresh and authentic cuisine.</p>
+          <p id="headingtagline">Enjoy fresh and authentic cuisine.</p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
       </div>
@@ -261,7 +262,7 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+    <script src="js/creative.js"></script>
 
   </body>
 

@@ -147,6 +147,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
+  /* background-image: url("https://cdn.pixabay.com/photo/2013/11/13/15/55/chinese-food-210101_960_720.jpg") */
   background-image: url("../img/header2.jpeg");
   background-position: center;
   -webkit-background-size: cover;

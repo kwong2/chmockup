@@ -11,7 +11,7 @@
                 ),
                 array (
                   "href" => "#menu",
-                  "title" => "team"
+                  "title" => "menu"
                 ),
                 array (
                   "href" => "#  contact",
