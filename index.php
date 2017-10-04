@@ -79,7 +79,7 @@
         </div>
       </div>
     </section>
-
+<!-- 
     <section id="services">
       <div class="container">
         <div class="row">
@@ -121,7 +121,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="p-0" id="portfolio">
       <div class="container-fluid">
